@@ -4,7 +4,7 @@
   "description": "Js molules di-connection tool",
   "main": "index.js",
   "scripts": {
-    "test": "mocha test-unit/**/*",
+    "test": "mocha test-unit/**/*.js",
     "tsc": "tsc"
   },
   "repository": {

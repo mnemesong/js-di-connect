@@ -1,5 +1,6 @@
 const assert = require('assert');
-const isDiChecker = require('../../js/tools/is-di-checker');
+const path = require('path');
+const isDiChecker = require(path.resolve(__dirname, '..', '..', 'js', 'tools', 'is-di-checker'));
 
 it('test check', () => {
     assert.ok(true);
