@@ -1,0 +1,33 @@
+{
+  "name": "js-di-connect",
+  "version": "0.0.1",
+  "description": "Js molules di-connection tool",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test-unit/**/*",
+    "tsc": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mnemesong/js-di-connect.git"
+  },
+  "keywords": [
+    "di",
+    "ioc",
+    "connect",
+    "inversion"
+  ],
+  "author": "Anatoly Starodubtsev <Pantagruel74>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mnemesong/js-di-connect/issues"
+  },
+  "homepage": "https://github.com/mnemesong/js-di-connect#readme",
+  "devDependencies": {
+    "@types/node": "^18.7.15",
+    "mocha": "^10.0.0"
+  },
+  "dependencies": {
+    "typescript": "^4.8.2"
+  }
+}
